@@ -82,7 +82,7 @@
 										</span> 
 									</div>
 									<p class="darklinks" > 
-										<a href="{{ route('blogs.read', $row->id) }}" style="color: #f07d05;">{{ $row->title }}</a> 
+										<a href="{{ route('blogs.read', $row->id) }}" style="color: #e73525;">{{ $row->title }}</a> 
 									</p>
 								</div>
 							</li>
