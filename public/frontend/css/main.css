@@ -11477,7 +11477,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .page_footer .widget .logo img {
     display: block;
-    max-width: 118px
+    /* max-width: 118px */
 }
 
 .page_footer .media {
