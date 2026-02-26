@@ -60,13 +60,13 @@
 <section class="page_copyright section_padding_top_10 section_padding_bottom_10" style="background-color: black;">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-6 text-left" style="color: #f07d05; font-size: 10px;"> &copy; <?php echo date('Y'); ?>  All Rights Reserved | Developed By <a href="">VMSL</a>  </div>
+			<div class="col-xs-6 text-left" style="color: #e73525; font-size: 10px;"> &copy; <?php echo date('Y'); ?>  All Rights Reserved | Developed By <a href="">VMSL</a>  </div>
 			<div class="col-xs-6 text-right">
-				<div class="page_social" style="color: #f07d05;"> 
-					<a class="social-icon socicon-facebook dark-icon" style="color: #f07d05;" target="_blank" href="{{ $wss->facebook ?? '#' }}" title="Facebook"></a> 
-					<a class="social-icon socicon-linkedin dark-icon" style="color: #f07d05;" target="_blank" href="{{ $wss->linkedin ?? '#' }}" title="Linkedin"></a>							
-					<a class="social-icon socicon-twitter dark-icon" style="color: #f07d05;" target="_blank" href="{{ $wss->twiter ?? '#' }}" title="Twitter"></a> 
-					<a class="social-icon socicon-instagram dark-icon" style="color: #f07d05;" target="_blank" href="{{ $wss->instagram ?? '#' }}" title="Instagram"></a> 
+				<div class="page_social" style="color: #e73525;"> 
+					<a class="social-icon socicon-facebook dark-icon" style="color: #e73525;" target="_blank" href="{{ $wss->facebook ?? '#' }}" title="Facebook"></a> 
+					<a class="social-icon socicon-linkedin dark-icon" style="color: #e73525;" target="_blank" href="{{ $wss->linkedin ?? '#' }}" title="Linkedin"></a>							
+					<a class="social-icon socicon-twitter dark-icon" style="color: #e73525;" target="_blank" href="{{ $wss->twiter ?? '#' }}" title="Twitter"></a> 
+					<a class="social-icon socicon-instagram dark-icon" style="color: #e73525;" target="_blank" href="{{ $wss->instagram ?? '#' }}" title="Instagram"></a> 
 				</div>
 			</div>
 		</div>

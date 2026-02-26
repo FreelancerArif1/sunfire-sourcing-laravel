@@ -44,7 +44,7 @@
                                 <div class="contact-form-message form-group bottommargin_0"> <label for="message">Message</label> <i class="fa fa-comment highlight" aria-hidden="true"></i> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea> </div>
                             </div>
                             <div class="col-sm-12 bottommargin_0">
-                                <div class="contact-form-submit topmargin_10"> <button type="submit" class="theme_button min_width_button margin_0" style="color: #f07d05;">Send message</button> </div>
+                                <div class="contact-form-submit topmargin_10"> <button type="submit" class="theme_button min_width_button margin_0" style="color: #e73525;">Send message</button> </div>
                             </div>
                         </div>
                     </form>

@@ -71,7 +71,7 @@
                             <div class="form-group"> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control with_icon" placeholder="Message"></textarea> <i class="qtyler-comment grey"></i> </div>
                         </div>
                         <div class="col-xs-12 bottommargin_0">
-                            <div class="contact-form-submit"> <button type="submit" id="" name="contact_submit" class="theme_button min_width_button margin_0" style="color: #f07d05;">APPLY</button> </div>
+                            <div class="contact-form-submit"> <button type="submit" id="" name="contact_submit" class="theme_button min_width_button margin_0" style="color: #e73525;">APPLY</button> </div>
                         </div>
                     </form>
                 </div>

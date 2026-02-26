@@ -131,10 +131,10 @@
 			<div class="row flex-wrap v-center">
 				<div class="col-xs-12 col-md-3 col-md-push-8"> <img src="{{ asset('frontend/images/tailoring.jpg') }}" alt="" class="contact-form-cover"> </div>
 				<div class="col-xs-12 col-md-9 col-md-pull-4">
-					<h2 class="section_header small" style="color: #f07d05;">Our Items</h2>
+					<h2 class="section_header small" style="color: #e73525;">Our Items</h2>
 					<p class="small-text grey" >popular items</p>
 					<div class="toppadding_5"></div>
-					<p style="color: #f07d05;">Elegrandbd supplies all kind of garment/apparels following the buyer’s requirement. Our products include:</p>
+					<p style="color: #e73525;">Elegrandbd supplies all kind of garment/apparels following the buyer’s requirement. Our products include:</p>
 					<div class="col-md-12">
 						<div class="owl-carousel owl-theme" id="popular-product">
 							@foreach($item_sliders as $row)
@@ -177,7 +177,7 @@
 							<div class="form-group"> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control with_icon" placeholder="Message"></textarea> <i class="qtyler-comment grey"></i> </div>
 						</div>
 						<div class="col-xs-12 bottommargin_0">
-							<div class="contact-form-submit"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button small_button margin_0" style="color: #f07d05;">Order tailoring</button> </div>
+							<div class="contact-form-submit"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button small_button margin_0" style="color: #e73525;">Order tailoring</button> </div>
 						</div>
 					</form>
 				</div>
