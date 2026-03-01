@@ -1322,3 +1322,6 @@
 .career-apply-btn:hover{
   border-color: #fff;
 }
+.page_topline {
+  display: none;
+}
