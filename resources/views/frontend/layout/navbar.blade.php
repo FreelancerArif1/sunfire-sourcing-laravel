@@ -75,7 +75,7 @@
                                 </li>
                                 <li> <a href="#">Products</a>
                                     <ul>
-                                        <!-- gallery -->
+                             
                                         @foreach (App\product_division::all() as $row)
                                             <li>
                                                 <a
@@ -83,7 +83,7 @@
                                                 @php
                                                     $category = App\product_category::where(
                                                         'parent_id',
-                                                        $row->id,
+                                                        $row->id
                                                     )->get();
                                                 @endphp
                                                 @if (count($category) > 0)
@@ -113,7 +113,10 @@
                                         @endforeach
                                     </ul>
                                 </li>
-                                <!-- eof pages -->
+                            
+                                
+
+
                                 <li>
                                     <a href="{{ url('/ourteam') }}">Team</a>
                                 </li>
