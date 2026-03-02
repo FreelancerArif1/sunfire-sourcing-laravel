@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-md-4 text-center text-md-left pt-3">
 				<div class="widget widget_text">
-					<div class="logo"> <img src="{{asset($wss->logo ?? '')}}" style="/*height: 80px;" alt=""> </div>
+					<div class="logo"> <img src="/frontend/images/footelogo.png" alt=""> </div>
 					<p class="greylinks">{{$wss->welcome_text ?? ''}}</p>
 				</div>
 			</div>
