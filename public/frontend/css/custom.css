@@ -1303,11 +1303,11 @@
 }
 
 .page_footer ul.list-unstyled.greylinks * {
-  color: #d5d5d5;
+  color: #f1f1f1;
 }
 
 .page_footer .greylinks{
-  color: #d5d5d5;
+  color: #f1f1f1;
 }
 
 .page_footer .widget.widget_text {
@@ -1324,4 +1324,20 @@
 }
 .page_topline {
   display: none;
+}
+.map_image{
+      width: 100%;
+    height: auto;
+}
+.dropdown li a:hover{
+  color: #fff !important;
+}
+.dropdown li a{
+  color: #fff !important;
+}
+.widget-title{
+  color: #fff !important;
+}
+h3.entry-title {
+    font-size: 20px !important;
 }

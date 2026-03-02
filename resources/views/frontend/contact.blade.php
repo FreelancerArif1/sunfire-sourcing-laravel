@@ -44,7 +44,7 @@
                                 <div class="contact-form-message form-group bottommargin_0"> <label for="message">Message</label> <i class="fa fa-comment highlight" aria-hidden="true"></i> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea> </div>
                             </div>
                             <div class="col-sm-12 bottommargin_0">
-                                <div class="contact-form-submit topmargin_10"> <button type="submit" class="theme_button min_width_button margin_0" style="color: #e73525;">Send message</button> </div>
+                                <div class="contact-form-submit topmargin_10"> <button type="submit" class="theme_button min_width_button margin_0" >Send message</button> </div>
                             </div>
                         </div>
                     </form>
@@ -91,8 +91,10 @@
             <div class="map_marker_description">
                 <h3>Map Title</h3>
                 <img class="map_marker_icon" src="{{ asset('frontend/images/map_marker_icon.png') }}" alt="">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.5344163520701!2d90.41296545804366!3d23.851689397815985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7daa1390001%3A0xd15951ce100e98a9!2zSGFqaSBrb21vcnVkZGluIHRvd2VyICjgprngpr7gppzgp4Ag4KaV4Kau4Kaw4KaJ4Kam4KeN4Kam4KeA4KaoIOCmn-CmvuCmk-Cnn-CmvuCmsCk!5e0!3m2!1sen!2sbd!4v1670062409286!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.5344163520701!2d90.41296545804366!3d23.851689397815985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7daa1390001%3A0xd15951ce100e98a9!2zSGFqaSBrb21vcnVkZGluIHRvd2VyICjgprngpr7gppzgp4Ag4KaV4Kau4Kaw4KaJ4Kam4KeN4Kam4KeA4KaoIOCmn-CmvuCmk-Cnn-CmvuCmsCk!5e0!3m2!1sen!2sbd!4v1670062409286!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14603.593456351144!2d90.39903850322263!3d23.78663330832785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c72f7d45db81%3A0x5b723a27a97d4388!2sVirtual%20Market%20Solution%20Limited-VMSL!5e0!3m2!1sen!2sbd!4v1772428832224!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <img class="map_image" src="/frontend/images/map.png" alt="">
+                </div>
         </div>
     </section>
 @endsection

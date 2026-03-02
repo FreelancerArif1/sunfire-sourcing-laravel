@@ -56,7 +56,7 @@
                             <ul class="mainmenu nav sf-menu">
                                 <li class="active"> <a href="{{ route('home') }}">Home</a></li>
                                 <li> <a href="#">About</a>
-                                    <ul>
+                                    <ul class="dropdown">
                                         <li> <a href="{{ url('/about-us') }}">About Us</a> </li>
                                         <li> <a href="{{ url('/our-clients') }}">Our Clients</a> </li>
                                         <li> <a href="{{ url('/our-partner') }}">Our Partners</a> </li>
@@ -65,7 +65,7 @@
                                     </ul>
                                 </li>
                                 <li> <a href="#">Services</a>
-                                    <ul>
+                                    <ul class="dropdown">
                                         @foreach (App\Service::where('status', 1)->get() as $row)
                                             <li> <a
                                                     href="{{ route('service.view', $row->id) }}">{{ $row->title }}</a>
@@ -74,7 +74,7 @@
                                     </ul>
                                 </li>
                                 <li> <a href="#">Products</a>
-                                    <ul>
+                                    <ul class="dropdown">
                              
                                         @foreach (App\product_division::all() as $row)
                                             <li>
@@ -87,7 +87,7 @@
                                                     )->get();
                                                 @endphp
                                                 @if (count($category) > 0)
-                                                    <ul>
+                                                    <ul class="dropdown">
                                                         @foreach ($category as $cat)
                                                             <li>
                                                                 <a
@@ -96,7 +96,7 @@
                                                                     $gender = App\product_gender::all();
                                                                 @endphp
                                                                 @if (count($gender) > 0)
-                                                                    <ul>
+                                                                    <ul class="dropdown">
                                                                         @foreach ($gender as $gen)
                                                                             <li>
                                                                                 <a
