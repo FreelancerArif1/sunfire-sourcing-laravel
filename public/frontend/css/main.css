@@ -2404,9 +2404,11 @@ input[type=submit] {
     display: inline-block;
     vertical-align: top;
     text-align: center;
-    color: #363636;
-    background-color: transparent;
-    border: 2px solid #363636;
+    color: #fff;
+    /* background-color: transparent;
+    border: 2px solid #363636; */
+    background-color: #e73525;
+    border: 2px solid #e73525;
     border-radius: 30px;
     transition: all .4s linear 0s
 }
@@ -2420,7 +2422,7 @@ input[type=submit] {
     button,
     input[type=submit] {
         padding: 14px 13px;
-        border-radius: 40px
+        border-radius: 7px
     }
 }
 
@@ -2470,12 +2472,12 @@ button:active,
 .wc-proceed-to-checkout .checkout-button:hover,
 .wc-proceed-to-checkout .checkout-button:focus,
 .wc-proceed-to-checkout .checkout-button:active {
-    color: #363636;
-    background-color: transparent;
-    border-color: #e73525;
+    color: #fff;
+    background-color: #991004;
+    border-color: #991004;
     opacity: 1;
     text-decoration: none;
-    outline: none
+    outline: none;
 }
 
 button:hover,
@@ -9363,27 +9365,27 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .ls .light_bg_color {
-    color: #363636
+    color: #e73525
 }
 
 .ls a {
-    color: #363636
+    color: #fff
 }
 
 .ls a:hover {
-    color: #e73525
+    color: #fff;
 }
 
 .ls a.active {
-    color: #e73525
+    color: #fff
 }
 
 .ls blockquote a {
-    color: #e73525
+    color: #fff
 }
 
 .ls .grey {
-    color: #363636
+    color: #fff;
 }
 
 .ls .highlight,
@@ -9445,7 +9447,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .ls .theme_buttons a,
 .ls .theme_button {
-    color: #363636
+    color: #fff;
 }
 
 .ls .theme_buttons.color1 a,
@@ -10855,7 +10857,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .cs .theme_buttons a,
 .cs .theme_button {
-    color: #363636
+    color: #fff;
 }
 
 .cs .theme_buttons a:hover,
@@ -10864,8 +10866,10 @@ body.active-side-header.slide-right .page_header_side {
 .cs .theme_button:hover,
 .cs .theme_button:focus,
 .cs .theme_button:active {
-    color: #363636;
-    border-color: #fff
+    /* color: #363636; */
+    color: #fff;
+    border-color: #991004;
+    background: #991004;
 }
 
 .cs .theme_buttons.color1 a,
