@@ -2910,7 +2910,7 @@ p>i+[class*=rt-icon] {
     text-align: center;
     width: 40px;
     height: 40px;
-    color: #363636;
+    color: #fff;
     background-color: #e73525;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .15)
@@ -3403,7 +3403,7 @@ html[xmlns] .slides {
 .cs .flex-direction-nav a,
 .cs .flex-direction-nav a:focus,
 .ds .flex-direction-nav a {
-    color: #363636
+    color: #fff;
 }
 
 .cs .flex-direction-nav a:hover,
@@ -4086,7 +4086,7 @@ div.ppt {
     z-index: 9999;
     font-size: 0;
     color: transparent;
-    color: #363636;
+    color: #fff;
     background: #e73525;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1)
