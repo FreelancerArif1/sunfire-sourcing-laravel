@@ -4675,7 +4675,7 @@ color: #e73525;
 }
 
 .section_padding_top_40>[class*=container] {
-    padding-top: 40px
+    padding-top: 20px;
 }
 
 .section_padding_top_50>[class*=container] {
@@ -4737,7 +4737,7 @@ color: #e73525;
 }
 
 .section_padding_bottom_40>[class*=container] {
-    padding-bottom: 40px
+    padding-bottom: 20px;
 }
 
 .section_padding_bottom_50>[class*=container] {
@@ -5985,8 +5985,8 @@ h3.text-center+p {
 
 @media(min-width:1200px) {
     #box_wrapper>* {
-        margin-right: 40px;
-        margin-left: 40px
+        margin-right: 80px;
+        margin-left: 80px;
     }
 }
 
@@ -10766,7 +10766,7 @@ body.active-side-header.slide-right .page_header_side {
 
 .cs .greylinks a,
 .cs .greylinks a.social-icon {
-    color: #363636
+    color: #fff;
 }
 
 .cs .greylinks a:hover,
