@@ -24,8 +24,9 @@
                     <p class="small-text grey">who works here</p>
                 </div>
                 <div class="row">
+                    <div class="text-center text-sm-left with_shadow with_social col-md-3"></div>
                     @foreach($team as $row)
-                    <div class="text-center text-sm-left with_shadow with_social col-md-3">
+                    <div class="text-center text-sm-left with_shadow with_social col-md-3 m-2">
                         <div class="row">
                             <div class="col-sm-12 pt-3">
                                 <div class="item-media"> 
@@ -50,6 +51,8 @@
                         </div>
                     </div>
                     @endforeach
+                    <div class="text-center text-sm-left with_shadow with_social col-md-3"></div>
+
                 </div>
             </div>
         </div>

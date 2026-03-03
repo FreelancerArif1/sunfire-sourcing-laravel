@@ -5796,7 +5796,7 @@ h2.section_header.big {
 
 @media(min-width:1200px) {
     h2.section_header {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     h2.section_header .small,
@@ -11436,7 +11436,7 @@ body.active-side-header.slide-right .page_header_side {
 
 @media(min-width:1200px) {
     #contact-form .contact-form-submit {
-        margin-top: 60px
+        /* margin-top: 60px */
     }
 }
 
@@ -16062,7 +16062,7 @@ aside:not(.shortcode-widget-area) .widget_mc4wp_form_widget .col-sm-4 {
 
 .contact-form-submit,
 .form-submit {
-    margin-top: 22px
+    /* margin-top: 22px */
 }
 
 .contact-form.transparent-background .form-control {

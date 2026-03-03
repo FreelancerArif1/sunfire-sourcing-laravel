@@ -1383,3 +1383,13 @@ padding-right: 15px !important;
 .isotope-item{
   /* padding: 0; */
 }
+.career-apply-btn{
+  background: #fff;
+  border-color: #fff;
+  color: #e73525 !important;
+}
+.career-apply-btn:hover{
+  background: #fff;
+  border-color: #fff;
+  color: #e73525 !important;
+}

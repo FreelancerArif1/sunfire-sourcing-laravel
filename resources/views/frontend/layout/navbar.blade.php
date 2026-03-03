@@ -61,7 +61,7 @@
                                         <li> <a href="{{ url('/about-us') }}">About Us</a> </li>
                                         <li> <a href="{{ url('/our-clients') }}">Our Clients</a> </li>
                                         <li> <a href="{{ url('/our-partner') }}">Our Partners</a> </li>
-                                        <li> <a href="{{ url('/our-factory') }}">Our Factory</a> </li>
+                                        <!-- <li> <a href="{{ url('/our-factory') }}">Our Factory</a> </li> -->
                                         {{-- <li> <a href="{{ url('/our-values') }}">Our Values</a> </li> --}}
                                     </ul>
                                 </li>
