@@ -1365,8 +1365,8 @@ line-height: 40px;
     color: #fff;
 }
 .page_copyright .container-fluid{
-  padding-top:0;
-  padding-bottom:0;
+    padding-top: 7px;
+    padding-bottom: 7px;
       line-height: 30px;
 }
 .grid_6{
