@@ -1397,3 +1397,7 @@ padding-right: 15px !important;
 #contact-form{
   min-height: 72vh;
 }
+.map_marker_description h3{
+             font-size: 30px;
+        text-transform: uppercase;
+}
