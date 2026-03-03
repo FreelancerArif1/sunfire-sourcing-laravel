@@ -5796,12 +5796,14 @@ h2.section_header.big {
 
 @media(min-width:1200px) {
     h2.section_header {
-        font-size: 40px;
+        font-size: 30px;
+        text-transform: uppercase;
     }
 
     h2.section_header .small,
     h2.section_header.small {
-        font-size: 40px
+        font-size: 30px;
+        text-transform: uppercase;
     }
 
     h2.section_header .extra-small,
