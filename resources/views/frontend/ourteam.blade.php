@@ -36,7 +36,7 @@
                             <div class="col-sm-12 pt-2">
                                 <div class="item-content text-center">
                                     <header class="entry-header">
-                                        <h3 class="entry-title"><a href="#">{{$row->name}}</a> </h3>
+                                        <h3 class="entry-title"><a class="team_title" href="#">{{$row->name}}</a> </h3>
                                         <p class="small-text highlight">{{$row->designation}}</p>
                                     </header>
                                 </div>
