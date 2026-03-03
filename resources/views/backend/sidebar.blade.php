@@ -6,7 +6,7 @@
       <div class="sidebar-brand-icon">
         <img src="{{asset($wss->logo ?? '')}}" height="60px" alt="">
       </div>
-      {{-- <div class="sidebar-brand-text mx-3">Apparel360</div> --}}
+      {{-- <div class="sidebar-brand-text mx-3">Sunfire Sourcing</div> --}}
     </a>
 
     <!-- Divider -->

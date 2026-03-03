@@ -49,7 +49,7 @@ womens apparel sourcing,
 kids clothing supplier BD,
 garment compliance services,
 QC QA inspection Bangladesh,
-fashion design apparel360,
+fashion design Sunfire Sourcing,
 Bangladesh apparel etailers">
 
     <meta name="author" content="Sunfire Sourcing">
