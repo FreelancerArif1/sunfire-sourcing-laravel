@@ -20,8 +20,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12"> <img src="{{ asset('frontend/images/about.jpg') }}" class="alignright" alt="">
-                    <h2 class="section_header topmargin_0">About Apparel360</h2>
-                    <p class="small-text grey">About our comapny</p>
+                    <h2 class="section_header topmargin_0">About Sunfire Sourcing</h2>
+                    <p class="small-text grey">About Us </p>
                     @php 
 					$about_us = DB::Table('page_cms')->where('slug', 'about-us')->first();
 					@endphp
