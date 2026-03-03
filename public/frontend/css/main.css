@@ -12749,7 +12749,7 @@ h1.entry-title {
 
 @media(min-width:992px) {
     h1.entry-title {
-        font-size: 40px
+        font-size: 30px;
     }
 }
 
