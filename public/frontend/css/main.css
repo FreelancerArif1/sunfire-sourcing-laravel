@@ -12749,7 +12749,7 @@ h1.entry-title {
 
 @media(min-width:992px) {
     h1.entry-title {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -14141,10 +14141,11 @@ footer .with_padding {
 .widget>h3,
 .widget-title {
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 900;
     margin-bottom: 26px;
-    line-height: 1em
+    line-height: 1em;
+    text-transform: uppercase;
 }
 
 .page_footer .widget>h3,

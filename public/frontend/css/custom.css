@@ -1393,3 +1393,7 @@ padding-right: 15px !important;
   border-color: #fff;
   color: #e73525 !important;
 }
+
+#contact-form{
+  min-height: 100vh;
+}
