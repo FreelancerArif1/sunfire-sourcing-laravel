@@ -1,5 +1,6 @@
-<section class="page_topline ds " style="background: #d96d11;">
-    <div class="container-fluid">
+<section class="page_topline ds " style="background: #e73525;
+    height: 30px;">
+    <div class="container-fluid hidden">
         <div class="row flex-wrap v-center">
             <div class="col-xs-12 col-md-8 text-center text-md-left">
                 <div class="inline-content big-spacing" style="color: #fff;"> <span>

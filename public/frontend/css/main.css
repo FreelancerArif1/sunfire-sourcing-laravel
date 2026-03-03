@@ -438,7 +438,7 @@ select .with_button,
 
 .form-control:-moz-placeholder {
     color: #666;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -447,7 +447,7 @@ select .with_button,
 
 .form-control::-moz-placeholder {
     color: #666;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -456,7 +456,7 @@ select .with_button,
 
 .form-control:-ms-input-placeholder {
     color: #666;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -465,7 +465,7 @@ select .with_button,
 
 .form-control::-webkit-input-placeholder {
     color: #666;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -2473,8 +2473,8 @@ button:active,
 .wc-proceed-to-checkout .checkout-button:focus,
 .wc-proceed-to-checkout .checkout-button:active {
     color: #fff;
-    background-color: #991004;
-    border-color: #991004;
+    background-color: #f94838;
+    border-color: #f94838;
     opacity: 1;
     text-decoration: none;
     outline: none;
@@ -2891,6 +2891,9 @@ p>i+[class*=rt-icon] {
     transition: all .2s ease-in-out 0s
 }
 
+.our_item_carousel .owl-dots .owl-dot span:before {
+    background-color: #fff
+}
 .ds .owl-dots .owl-dot span:before {
     background-color: #fff
 }
@@ -3416,7 +3419,7 @@ html[xmlns] .slides {
 
 .flex-direction-nav a:hover {
     color: #fff;
-    background-color: #B17F30;
+    background-color: #f94838;
     transition: all .05s linear 0s
 }
 
@@ -4087,9 +4090,8 @@ div.ppt {
     text-decoration: none;
     z-index: 9999;
     font-size: 0;
-    color: transparent;
-    color: #fff;
-    background: #e73525;
+color: #e73525;
+    border: 2px solid #e73525;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1)
 }
@@ -4112,7 +4114,7 @@ div.ppt {
 
 #toTop:after {
     content: "\f106";
-    font-size: 16px;
+    font-size: 20px;
     line-height: 40px;
     font-family: FontAwesome;
     text-align: center;
@@ -4411,7 +4413,7 @@ div.ppt {
 
 .selectize-input.not-full input {
     font-size: 18px;
-    font-style: italic
+    /* font-style: italic */
 }
 
 .selectize-input {
@@ -8059,20 +8061,20 @@ a.abs-link:hover {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
     /* max-width: 190px */
-    height: 60px;
+    height: 40px;
 
 }
 
 @media(min-width:1600px) {
     .logo img {
         /* max-width: 240px */
-        height: 60px;
+        height: 40px;
     }
 }
 
 .page_header_side .logo img {
     /* max-width: 220px */
-    height: 60px;
+    height: 40px;
 }
 
 .logo.logo_with_text {
@@ -10868,8 +10870,8 @@ body.active-side-header.slide-right .page_header_side {
 .cs .theme_button:active {
     /* color: #363636; */
     color: #fff;
-    border-color: #991004;
-    background: #991004;
+    border-color: #f94838;
+    background: #f94838;
 }
 
 .cs .theme_buttons.color1 a,
@@ -15758,10 +15760,13 @@ aside:not(.shortcode-widget-area) .widget_mc4wp_form_widget .col-sm-4 {
 }
 
 .testimonials-carousel .item>p {
-    font-style: italic;
+    /* font-style: italic; */
     padding-left: 40px;
     margin-bottom: 20px;
     position: relative
+}
+.form-group i{
+    color: #e73525;
 }
 
 .testimonials-carousel .item>p:before {
@@ -16299,7 +16304,7 @@ p.stars.selected a:not(.active):before {
 
 [class*=socicon-]:before {
     font-family: socicon;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1
 }
 
@@ -16329,7 +16334,7 @@ p.stars.selected a:not(.active):before {
 
 .social-icon+.social-icon,
 .tooltip+.social-icon {
-    margin-left: 21px
+    margin-left: 12px;
 }
 
 .social-icon.bg-icon+.social-icon.bg-icon,

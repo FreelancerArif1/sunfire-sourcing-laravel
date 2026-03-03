@@ -1323,7 +1323,7 @@
   border-color: #fff;
 }
 .page_topline {
-  display: none;
+  /* display: none; */
 }
 .map_image{
       width: 100%;
@@ -1340,4 +1340,39 @@
 }
 h3.entry-title {
     font-size: 20px !important;
+}
+.popular_items{
+  color: #fff;
+}
+#testimonials{
+  background: #e73525;
+}
+
+#testimonials .owl-prev, #testimonials .owl-next{
+    background: #fff;
+    color: #e73525;
+}
+#newslatter_input{
+height: 45px;
+padding: 5px 15px;
+}
+#newsbtn{
+width: 50px;
+height: 40px;
+line-height: 40px;
+    top: 2px;
+    right: 2px;
+    color: #fff;
+}
+.page_copyright .container-fluid{
+  padding-top:0;
+  padding-bottom:0;
+      line-height: 30px;
+}
+.grid_6{
+    padding-top:0;
+  padding-bottom:0;
+    margin-top:0;
+  margin-bottom:0;
+      line-height: 30px;
 }
