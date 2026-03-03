@@ -1,4 +1,5 @@
 @extends('frontend.base')
+@section('title', '404 | Sunfire Sourcing')
 @section('css')
 <link href="{{asset('frontend/css/error_track.css')}}" rel="stylesheet">
 @endsection

@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-md-4 text-center text-md-left pt-3 pl-0">
 				<div class="widget widget_text">
 					<div class="logo"> <img src="/frontend/images/footelogo.png" alt=""> </div>
-					<p class="greylinks">{{$wss->welcome_text ?? ''}}</p>
+					<p class="greylinks" style="    text-align: justify;">{{$wss->welcome_text ?? ''}}</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-4 text-center text-md-left pt-3">

@@ -1,5 +1,6 @@
 @extends('frontend.base')
 @section('body')
+@section('title', 'Product | Sunfire Sourcing')
 <div id="page">
     @include('frontend.nav')
 

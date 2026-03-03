@@ -1,5 +1,5 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Contact | Sunfire Sourcing')
 @section('content')
     <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">

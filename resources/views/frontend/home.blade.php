@@ -1,5 +1,5 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Home | Sunfire Sourcing')
 @section('content')
 	<section class="intro_section page_mainslider cs all-scr-cover">
 		<div class="flexslider" data-dots="false" data-nav="true">
