@@ -44,7 +44,8 @@
 							<div class="entry-thumbnail item-media"> 
 								<img src="{{asset($data->image)}}" alt="">
 								<div class="entry-meta-corner"> 
-									<span>
+									<span style="border: 2px solid #e73525;
+    background: #e73525;">
 										<time datetime="2017-10-03T08:50:40+00:00">
 											
                                             {{ $myDateTime->format('d') }} {{ $myDateTime->format('M') }}
@@ -67,7 +68,7 @@
 				<!-- sidebar -->
 				<aside class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">
 					<div class="widget widget_recent_posts mt-5 pt-5">
-						<h3 class="widget-title">Recent Posts</h3>
+						<h3 class="widget-title-2" style="color:#e73525;">Recent Posts</h3>
 						<ul class="media_items_list">
 							@foreach($alls as $row)
 							<li class="media">

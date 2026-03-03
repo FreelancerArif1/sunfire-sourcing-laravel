@@ -12948,8 +12948,8 @@ article.side-item+article.side-item {
 }
 
 .entry-meta-corner a:hover {
-    background-color: #fff;
-    color: #363636
+    background-color: #e73525;
+    color: #fff;
 }
 
 @media(min-width:500px) {

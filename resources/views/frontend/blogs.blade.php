@@ -16,10 +16,10 @@
         </div>
     </section>
 
-    <section class="ls pt-4 section_padding_bottom_150 columns_padding_30">
-        <div class="container">
+    <section class="ls pt-4 section_padding_bottom_150">
+        <div class="container p-0">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 p-0">
                     <div class="isotope_container isotope row masonry-layout columns_margin_bottom_20">
                         @foreach($blogs as $row)
                         <div class="isotope-item col-xs-12 col-sm-6 col-md-4">

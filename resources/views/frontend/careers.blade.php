@@ -17,11 +17,11 @@
     </section>
 
     <section id="contact-form" class="ls pt-4 section_padding_bottom_150" >
-        <div class="container">
+        <div class="container p-0">
             <div class="row flex-wrap ">
                 @foreach($jobs as $job)
-                    <div class="col-xs-12 col-md-12 pt-4"> 
-                        <div class="teaser media main_bg_color" style="background-color: #ff7600;">
+                    <div class="col-xs-12 col-md-12 pt-4 pl-0 pr-0"> 
+                        <div class="teaser media main_bg_color" style="background-color: #e73525;">
                             <div class="media-body">
                                 <h4 class="counter highlight counted" data-from="0" data-to="325" data-speed="2100">{{ $job->title }}</h4>
                                 <p><b>Application Deadline: </b> {{ $job->last_date ?? '' }}</p>
