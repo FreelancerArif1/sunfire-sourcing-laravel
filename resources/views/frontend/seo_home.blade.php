@@ -198,7 +198,7 @@
 								<div class="avatar">
 									<i class="fas fa-quote-left"></i>
 								</div>
-								<p style="color: #B17F31;">{{ $review->review }}</p> 
+								<p style="color: #e73525;">{{ $review->review }}</p> 
 								<cite>{{ $review->client }}</cite> 
 							</blockquote>
 						@endforeach
