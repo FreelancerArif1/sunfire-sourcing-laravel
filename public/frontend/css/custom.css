@@ -1376,3 +1376,7 @@ line-height: 40px;
   margin-bottom:0;
       line-height: 30px;
 }
+#products, #gallery .container-fluid{
+padding-left: 15px !important;
+padding-right: 15px !important;
+}
