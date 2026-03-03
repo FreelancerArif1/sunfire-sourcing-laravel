@@ -4021,7 +4021,7 @@ div.ppt {
 
 .percent {
     display: inline-block;
-    font-size: 60px;
+    font-size: 50px;;
     font-weight: 700;
     line-height: 1;
     z-index: 2
@@ -5791,12 +5791,12 @@ h2.section_header.small {
 h2.section_header .big,
 h2.section_header.big {
     line-height: .93em;
-    font-size: 60px
+    font-size: 50px;
 }
 
 @media(min-width:1200px) {
     h2.section_header {
-        font-size: 60px
+        font-size: 50px;
     }
 
     h2.section_header .small,
@@ -6341,7 +6341,7 @@ strong.big {
 
 @media(min-width:1200px) {
     .hero {
-        font-size: 60px
+        font-size: 50px;
     }
 }
 
