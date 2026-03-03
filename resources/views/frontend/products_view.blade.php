@@ -38,7 +38,7 @@
                                         </div>
                                         <div class="item-content">
                                             <h3 class="entry-title"> 
-                                                <a href="{{ route('product.view', $product->id) }}">{{ $product->name }}</a> 
+                                                <a class="product_category" href="{{ route('product.view', $product->id) }}">{{ $product->name }}</a> 
                                             </h3>
                                         </div>
                                     </article>
