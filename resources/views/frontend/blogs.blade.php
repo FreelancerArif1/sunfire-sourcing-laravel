@@ -38,7 +38,7 @@
                                     </div>
                                 </div>
                                 <div class="item-content">
-                                    <h3 class="entry-title small"> <a href="{{ route('blogs.read', $row->id) }}">Differ one financial advisor from another</a> </h3>
+                                    <h3 class="entry-title small"> <a class="blog_title" href="{{ route('blogs.read', $row->id) }}">Differ one financial advisor from another</a> </h3>
                                 </div>
                             </article>
                         </div>
