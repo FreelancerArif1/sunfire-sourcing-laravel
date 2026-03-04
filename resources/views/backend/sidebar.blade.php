@@ -4,7 +4,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard" style="background-color: black;">
       <div class="sidebar-brand-icon">
-        <img src="{{asset($wss->logo ?? '')}}" height="60px" alt="">
+        <img src="{{asset($wss->logo ?? '')}}" alt="">
       </div>
       {{-- <div class="sidebar-brand-text mx-3">Sunfire Sourcing</div> --}}
     </a>
