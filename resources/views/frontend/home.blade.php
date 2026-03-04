@@ -1,5 +1,5 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Home | Sunfire Sourcing')
 @section('content')
 	<section class="intro_section page_mainslider cs all-scr-cover">
 		<div class="flexslider" data-dots="false" data-nav="true">
@@ -131,12 +131,12 @@
 			<div class="row flex-wrap v-center">
 				<div class="col-xs-12 col-md-3 col-md-push-8"> <img src="{{ asset('frontend/images/tailoring.jpg') }}" alt="" class="contact-form-cover"> </div>
 				<div class="col-xs-12 col-md-9 col-md-pull-4">
-					<h2 class="section_header small" style="color: #f07d05;">Our Items</h2>
-					<p class="small-text grey" >popular items</p>
+					<h2 class="section_header small" style="color: #e73525;">Our Items</h2>
+					<p class="small-text grey popular_items" >popular items</p>
 					<div class="toppadding_5"></div>
-					<p style="color: #f07d05;">Elegrandbd supplies all kind of garment/apparels following the buyer’s requirement. Our products include:</p>
+					<p style="color: #e73525;">Elegrandbd supplies all kind of garment/apparels following the buyer’s requirement. Our products include:</p>
 					<div class="col-md-12">
-						<div class="owl-carousel owl-theme" id="popular-product">
+						<div class="owl-carousel owl-theme our_item_carousel" id="popular-product">
 							@foreach($item_sliders as $row)
 							<div class="vertical-item item">
 								<div class="item-media"> 
@@ -177,14 +177,14 @@
 							<div class="form-group"> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control with_icon" placeholder="Message"></textarea> <i class="qtyler-comment grey"></i> </div>
 						</div>
 						<div class="col-xs-12 bottommargin_0">
-							<div class="contact-form-submit"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button small_button margin_0" style="color: #f07d05;">Order tailoring</button> </div>
+							<div class="contact-form-submit"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button small_button margin_0">Order tailoring</button> </div>
 						</div>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="testimonials" class="section_padding_top_150 section_padding_bottom_150" style="background-color: black;">
+	<section id="testimonials" class="section_padding_top_150 section_padding_bottom_150">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 text-center">
@@ -194,8 +194,8 @@
 								<div class="avatar">
 									<i class="fas fa-quote-left"></i>
 								</div>
-								<p style="color: #B17F31;">{{ $review->review }}</p> 
-								<cite>{{ $review->client }}</cite> 
+								<p style="color: #fff;">{{ $review->review }}</p> 
+								<cite style="color: #fff;">{{ $review->client }}</cite> 
 							</blockquote>
 						@endforeach
 					</div>
@@ -293,8 +293,8 @@
 					<div class="widget widget_mailchimp">
 						<form class="signup" action="" method="get">
 							<div class="form-group"> 
-								<input class="mailchimp_email form-control" name="email" type="email" placeholder="Email Address"> 
-								<button type="submit" class="theme_button">Sign Up!</button> 
+								<input class="mailchimp_email form-control" id="newslatter_input" name="email" type="email" placeholder="Email Address"> 
+								<button type="submit" class="theme_button" id="newsbtn">Sign Up!</button> 
 							</div>
 							<div class="response"></div>
 						</form>

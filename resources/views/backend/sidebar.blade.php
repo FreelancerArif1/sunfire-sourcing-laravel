@@ -1,12 +1,12 @@
 <!-- Sidebar -->
-<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #B17F31">
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #e73525">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard" style="background-color: black;">
       <div class="sidebar-brand-icon">
-        <img src="{{asset($wss->logo ?? '')}}" height="60px" alt="">
+        <img src="{{asset($wss->logo ?? '')}}" alt="">
       </div>
-      {{-- <div class="sidebar-brand-text mx-3">Apparel360</div> --}}
+      {{-- <div class="sidebar-brand-text mx-3">Sunfire Sourcing</div> --}}
     </a>
 
     <!-- Divider -->

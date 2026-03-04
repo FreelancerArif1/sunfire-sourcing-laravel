@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Products | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -36,7 +36,7 @@
                                         </div>
                                         <div class="item-content">
                                             <h3 class="entry-title"> 
-                                                <a href="{{ route('product.view', $product->id) }}">{{ $product->name }}</a> 
+                                                <a class="product_category" href="{{ route('product.view', $product->id) }}">{{ $product->name }}</a> 
                                             </h3>
                                         </div>
                                     </article>

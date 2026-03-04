@@ -5,8 +5,9 @@
 @endphp
 
 <head>
-    <title>@yield('title', $wss->name)</title>
+    <title>{{ $wss->name ?? '' }}</title>
     <meta charset="utf-8">
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -35,39 +36,6 @@
     </script>
 
 
-    {{-- SEO --}}
-    
-    <meta name="description" content="@yield('meta_description', 'Incorporated in 2026, Sunfire Sourcing is a well-established globally reputed garments apparel buying, sourcing, and management services company in Dhaka, Bangladesh.')">
-    <meta name="keywords" content="
-Sunfire Sourcing Bangladesh,
-garment sourcing Bangladesh,
-knitted garments supplier,
-woven garments exporter,
-Bangladesh textile products,
-menswear wholesalers BD,
-womens apparel sourcing,
-kids clothing supplier BD,
-garment compliance services,
-QC QA inspection Bangladesh,
-fashion design Sunfire Sourcing,
-Bangladesh apparel etailers">
-
-    <meta name="author" content="Sunfire Sourcing">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="{{ url()->current() }}">
-    <meta property="og:title" content="@yield('title')">
-    <meta property="og:description" content="@yield('meta_description')">
-    <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ asset($wss->logo) }}">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="@yield('title', 'Sunfire Sourcing')">
-    <meta name="twitter:description" content="@yield('meta_description', 'Incorporated in 2026, Sunfire Sourcing is a well-established globally reputed garments apparel buying, sourcing, and management services company in Dhaka, Bangladesh.')">
-    <meta name="twitter:image" content="{{ asset($wss->logo) }}">
-    <meta name="twitter:url" content="{{ url()->current() }}">
-    <meta name="twitter:site" content="Sunfire Sourcing">
-    <meta name="twitter:creator" content="Sunfire Sourcing">
 </head>
 
 <body>

@@ -38,6 +38,6 @@
       </label>
     </div>
     <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    <p class="mt-5 mb-3 text-muted">&copy; 2020 {{ $wss->name ?? '' }}</p>
+    <p class="mt-5 mb-3 text-muted">&copy; 2026 {{ $wss->name ?? '' }}</p>
   </form>
 @endsection

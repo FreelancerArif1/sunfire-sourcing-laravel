@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'About Us | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -20,8 +20,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12"> <img src="{{ asset('frontend/images/about.jpg') }}" class="alignright" alt="">
-                    <h2 class="section_header topmargin_0">About Apparel360</h2>
-                    <p class="small-text grey">About our comapny</p>
+                    <h2 class="section_header topmargin_0">About Sunfire Sourcing</h2>
+                    <p class="small-text grey">About Us </p>
                     @php 
 					$about_us = DB::Table('page_cms')->where('slug', 'about-us')->first();
 					@endphp

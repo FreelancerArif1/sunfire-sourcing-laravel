@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Blog | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -44,7 +44,8 @@
 							<div class="entry-thumbnail item-media"> 
 								<img src="{{asset($data->image)}}" alt="">
 								<div class="entry-meta-corner"> 
-									<span>
+									<span style="border: 2px solid #e73525;
+    background: #e73525;">
 										<time datetime="2017-10-03T08:50:40+00:00">
 											
                                             {{ $myDateTime->format('d') }} {{ $myDateTime->format('M') }}
@@ -67,7 +68,7 @@
 				<!-- sidebar -->
 				<aside class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 col-lg-4">
 					<div class="widget widget_recent_posts mt-5 pt-5">
-						<h3 class="widget-title">Recent Posts</h3>
+						<h3 class="widget-title-2" style="color:#e73525;">Recent Posts</h3>
 						<ul class="media_items_list">
 							@foreach($alls as $row)
 							<li class="media">
@@ -82,7 +83,7 @@
 										</span> 
 									</div>
 									<p class="darklinks" > 
-										<a href="{{ route('blogs.read', $row->id) }}" style="color: #f07d05;">{{ $row->title }}</a> 
+										<a href="{{ route('blogs.read', $row->id) }}" style="color: #e73525;">{{ $row->title }}</a> 
 									</p>
 								</div>
 							</li>

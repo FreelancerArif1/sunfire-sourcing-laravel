@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Career | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -16,10 +16,10 @@
         </div>
     </section>
 
-    <section id="contact-form" class="ls pt-4 section_padding_bottom_150" >
+    <section id="contact-form" class="ls section_padding_bottom_150" >
         <div class="container">
-            <div class="row flex-wrap ">
-                <div class="col-xs-12 col-md-5 col-md-push-6 pt-4"> 
+            <div class="row pt-3">
+                <div class="col-xs-12 col-md-7"> 
                     
                     @if($career)
                         <h4 class="">{{ $career->title ?? '' }}</h4>
@@ -30,9 +30,9 @@
                     @endif
                     
                 </div>
-                <div class="col-xs-12 col-md-7 col-md-pull-6">
+                <div class="col-xs-12 col-md-5">
                     <h2 class="section_header">Join Our Team</h2>
-                    <p class="small-text grey">JOIN APPAREL360 FAMILY</p>
+                    <p class="small-text grey">JOIN Sunfire Sourcing FAMILY</p>
                     <div class="toppadding_5">
                     	@if($errors->any())
 							<h4 class="text-success">{{$errors->first()}}</h4>
@@ -71,7 +71,7 @@
                             <div class="form-group"> <textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control with_icon" placeholder="Message"></textarea> <i class="qtyler-comment grey"></i> </div>
                         </div>
                         <div class="col-xs-12 bottommargin_0">
-                            <div class="contact-form-submit"> <button type="submit" id="" name="contact_submit" class="theme_button min_width_button margin_0" style="color: #f07d05;">APPLY</button> </div>
+                            <div class="contact-form-submit"> <button type="submit" id="" name="contact_submit" class="theme_button min_width_button margin_0">APPLY</button> </div>
                         </div>
                     </form>
                 </div>

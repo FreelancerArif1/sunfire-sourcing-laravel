@@ -3,6 +3,7 @@
     <link href="{{asset('frontend/css/about.css')}}" rel="stylesheet">
     <link href="{{asset('frontend/css/error_track.css')}}" rel="stylesheet">
 @endsection
+@section('title', 'Partner | Sunfire Sourcing')
 @section('body')
     <div id="page">
         @include('frontend.nav')

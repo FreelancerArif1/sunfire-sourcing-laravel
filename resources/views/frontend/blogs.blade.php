@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Blog | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -16,10 +16,10 @@
         </div>
     </section>
 
-    <section class="ls pt-4 section_padding_bottom_150 columns_padding_30">
-        <div class="container">
+    <section class="ls pt-4 section_padding_bottom_150">
+        <div class="container p-0">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 p-0">
                     <div class="isotope_container isotope row masonry-layout columns_margin_bottom_20">
                         @foreach($blogs as $row)
                         <div class="isotope-item col-xs-12 col-sm-6 col-md-4">
@@ -38,7 +38,7 @@
                                     </div>
                                 </div>
                                 <div class="item-content">
-                                    <h3 class="entry-title small"> <a href="{{ route('blogs.read', $row->id) }}">Differ one financial advisor from another</a> </h3>
+                                    <h3 class="entry-title small"> <a class="blog_title" href="{{ route('blogs.read', $row->id) }}">Differ one financial advisor from another</a> </h3>
                                 </div>
                             </article>
                         </div>

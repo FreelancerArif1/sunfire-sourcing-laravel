@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Our Team | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -24,8 +24,9 @@
                     <p class="small-text grey">who works here</p>
                 </div>
                 <div class="row">
+                    <div class="text-center text-sm-left with_shadow with_social col-md-3"></div>
                     @foreach($team as $row)
-                    <div class="text-center text-sm-left with_shadow with_social col-md-3">
+                    <div class="text-center text-sm-left with_shadow with_social col-md-3 m-2">
                         <div class="row">
                             <div class="col-sm-12 pt-3">
                                 <div class="item-media"> 
@@ -35,7 +36,7 @@
                             <div class="col-sm-12 pt-2">
                                 <div class="item-content text-center">
                                     <header class="entry-header">
-                                        <h3 class="entry-title"><a href="#">{{$row->name}}</a> </h3>
+                                        <h3 class="entry-title"><a class="team_title" href="#">{{$row->name}}</a> </h3>
                                         <p class="small-text highlight">{{$row->designation}}</p>
                                     </header>
                                 </div>
@@ -50,6 +51,8 @@
                         </div>
                     </div>
                     @endforeach
+                    <div class="text-center text-sm-left with_shadow with_social col-md-3"></div>
+
                 </div>
             </div>
         </div>

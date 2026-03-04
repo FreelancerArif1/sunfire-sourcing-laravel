@@ -1294,20 +1294,20 @@
     border-radius: 100%;
     height: 80px;
     width: 80px;
-    color: #f07d05;
+    color: #e73525;
     font-size: 30px;
 }
 
 .active{
-  color: #f07d05 !important;
+  color: #e73525 !important;
 }
 
 .page_footer ul.list-unstyled.greylinks * {
-  color: #d5d5d5;
+  color: #f1f1f1;
 }
 
 .page_footer .greylinks{
-  color: #d5d5d5;
+  color: #f1f1f1;
 }
 
 .page_footer .widget.widget_text {
@@ -1321,4 +1321,91 @@
 }
 .career-apply-btn:hover{
   border-color: #fff;
+}
+.page_topline {
+  /* display: none; */
+}
+.map_image{
+      width: 100%;
+    height: auto;
+}
+.dropdown li a:hover{
+  color: #fff !important;
+}
+.dropdown li a{
+  color: #fff !important;
+}
+.widget-title{
+  color: #fff !important;
+}
+h3.entry-title {
+    font-size: 20px !important;
+}
+.popular_items{
+  color: #fff;
+}
+#testimonials{
+  background: #e73525;
+}
+
+#testimonials .owl-prev, #testimonials .owl-next{
+    background: #fff;
+    color: #e73525;
+}
+#newslatter_input{
+height: 45px;
+padding: 5px 15px;
+}
+#newsbtn{
+width: 50px;
+height: 40px;
+line-height: 40px;
+    top: 2px;
+    right: 2px;
+    color: #fff;
+}
+.page_copyright .container-fluid{
+    padding-top: 7px;
+    padding-bottom: 7px;
+      line-height: 30px;
+}
+.grid_6{
+    padding-top:0;
+  padding-bottom:0;
+    margin-top:0;
+  margin-bottom:0;
+      line-height: 30px;
+}
+#products, #gallery .container-fluid{
+padding-left: 15px !important;
+padding-right: 15px !important;
+}
+.isotope-item{
+  /* padding: 0; */
+}
+.career-apply-btn{
+  background: #fff;
+  border-color: #fff;
+  color: #e73525 !important;
+}
+.career-apply-btn:hover{
+  background: #fff;
+  border-color: #fff;
+  color: #e73525 !important;
+}
+
+#contact-form{
+  min-height: 72vh;
+}
+.map_marker_description h3{
+             font-size: 25px;
+        text-transform: uppercase;
+}
+.blog_title{
+      text-transform: uppercase;
+    font-size: 16px;
+}
+.team_title, .product_category{
+        text-transform: uppercase;
+    font-size: 16px;
 }

@@ -1,7 +1,7 @@
 @extends('frontend.layout.master')
-
+@section('title', 'Career | Sunfire Sourcing')
 @section('content')
-    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg,#F8AE54 37%,#414E57 61%)!important;">
+    <section class="page_breadcrumbs cs main_color2 gradient lighten_gradient section_padding_top_40 section_padding_bottom_40 table_section table_section_md" style="background-image: linear-gradient(131deg, #e73525 37%, #db8981 61%) !important;">
         <div class="container">
             <div class="row">
                 <ol class="breadcrumb greylinks">
@@ -17,11 +17,11 @@
     </section>
 
     <section id="contact-form" class="ls pt-4 section_padding_bottom_150" >
-        <div class="container">
+        <div class="container p-0">
             <div class="row flex-wrap ">
                 @foreach($jobs as $job)
-                    <div class="col-xs-12 col-md-12 pt-4"> 
-                        <div class="teaser media main_bg_color" style="background-color: #ff7600;">
+                    <div class="col-xs-12 col-md-12 pt-4 pl-0 pr-0"> 
+                        <div class="teaser media main_bg_color" style="background-color: #e73525;">
                             <div class="media-body">
                                 <h4 class="counter highlight counted" data-from="0" data-to="325" data-speed="2100">{{ $job->title }}</h4>
                                 <p><b>Application Deadline: </b> {{ $job->last_date ?? '' }}</p>
